@@ -7,7 +7,14 @@ in a three-dimensional space based on their Red / Green / Blue components. We th
 To illustrate the use of k-means, we use a synthetic image made up of two zones with clearly distinct colors.
 ## Example of implementation
 We will give our algorithm a multi-color input image which consists of different intensities: (we always do the test with the initial image and see the results while changing the number of clusters k)
+
 ![GitHub Logo](images/lena.jpg)
 This image consists of 512 x 512 pixels
 * For k = 2:
 The figure below clearly illustrates the 3D point cloud graphical representation that represents the pixels of our input image.
+![GitHub Logo](images/graph.png)
+
+After seeing these results, we can deduce that the algorithm works well, it manages to group the pixels of our image into homogeneous groups.
+here is now the results of the segmentation of the original image.
+
+![GitHub Logo](images/Figure 2020-07-22 223243.png)
